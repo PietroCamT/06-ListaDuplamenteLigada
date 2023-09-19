@@ -160,7 +160,7 @@ void exibirReverso()
 
 void excluirPrimeiroElemento()
 {
-	if (primeiro == ultimo) {
+	if (primeiro == ultimo) { 
 		free(ultimo);
 		primeiro = NULL;
 		ultimo = NULL;
